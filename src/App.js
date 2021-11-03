@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ButtonGeneric } from "./components";
 
-function App() {
+import { View, Image, ImageBackground } from 'react-native'
+
+import octopusImg from './assets/imgages/octopus.png'
+
+
+const App = () => {
   return (
-    <div className="App">
-      {/* Jubi */}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <View style={{ flex: 1}}>
+      <ButtonGeneric
+        styleImg={{ width: 50, height: 50 }}
+        style={{background:'trasparent'}}
+        // title = 'ciao'
+        source={octopusImg}
+      />
+    </View>
   );
 }
 
