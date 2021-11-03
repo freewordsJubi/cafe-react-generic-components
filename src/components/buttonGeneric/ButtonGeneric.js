@@ -22,6 +22,6 @@ const ButtonGeneric = (props) => {
 ButtonGeneric.defaultProps = {
     style: genericStyle.button,
     styleTitle: genericStyle.text,
-
+    styleImg: genericStyle.img
 }
 export default ButtonGeneric
