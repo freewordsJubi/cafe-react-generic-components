@@ -1,5 +1,5 @@
 {
-  "name": "cafe-jubi-calo-components",
+  "name": "cafe-react-generic-components",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
