@@ -1,23 +1,31 @@
 import React from "react";
-import { View, ImageBackground,Text } from 'react-native'
-import genericStyle from "../genericStyle";
+import { View, ImageBackground } from 'react-native'
+import genericStyle from "../../assets/styles/genericStyle";
 
 const BackgroundGeneric = (props) => {
     return (
-        <View style={props.container}>
+        <View style={props.style}>
             <ImageBackground style={props.styleImg} source={props.source}>
-                <View style={props.contentContainer}>
-                    <Text style={props.styleTitle}>{props.titlePage}</Text>
-                    {props.content}
+                <View style={{
+                    display: "flex",
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '100%',
+                    height: '100%',
+                }}>
+                    <View style={props.stylecontentContainer}>
+                        {props.children}
+                    </View>
                 </View>
+
             </ImageBackground>
         </View>
     )
 }
 
 BackgroundGeneric.defaultProps = {
-    container:genericStyle.container,
-    contentContainer: genericStyle.contentContainer,
+    style: genericStyle.container,
+    stylecontentContainer: genericStyle.contentContainer,
     styleImg: genericStyle.imgBg,
     styleTitle: genericStyle.textTitle
 }
