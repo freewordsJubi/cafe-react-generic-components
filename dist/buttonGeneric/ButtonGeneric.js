@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactNative = require("react-native");
 
-var _genericStyle = _interopRequireDefault(require("../../assets/styles/genericStyle"));
+var _genericStyle = _interopRequireDefault(require("../styles/genericStyle"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

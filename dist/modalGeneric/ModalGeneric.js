@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactNative = require("react-native");
 
-var _genericStyle = _interopRequireDefault(require("../../assets/styles/genericStyle"));
+var _genericStyle = _interopRequireDefault(require("../styles/genericStyle"));
 
 var _ButtonGeneric = _interopRequireDefault(require("../buttonGeneric/ButtonGeneric"));
 
