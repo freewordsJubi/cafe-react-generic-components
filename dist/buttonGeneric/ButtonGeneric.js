@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactNative = require("react-native");
 
-var _genericStyle = _interopRequireDefault(require("../genericStyle"));
+var _genericStyle = _interopRequireDefault(require("../../assets/styles/genericStyle"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26,12 +26,13 @@ var ButtonGeneric = function ButtonGeneric(props) {
   }, props.title), /*#__PURE__*/_react.default.createElement(_reactNative.ImageBackground, {
     style: props.styleImg,
     source: props.source
-  }));
+  }), props.children);
 };
 
 ButtonGeneric.defaultProps = {
   style: _genericStyle.default.button,
-  styleTitle: _genericStyle.default.text
+  styleTitle: _genericStyle.default.text,
+  styleImg: _genericStyle.default.img
 };
 var _default = ButtonGeneric;
 exports.default = _default;

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { TouchableOpacity, Text, ImageBackground } from 'react-native'
-import genericStyle from "../../assets/styles/genericStyle";
+import genericStyle from "../styles/genericStyle";
 
 const ButtonGeneric = (props) => {
 

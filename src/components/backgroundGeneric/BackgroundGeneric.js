@@ -1,6 +1,6 @@
 import React from "react";
 import { View, ImageBackground } from 'react-native'
-import genericStyle from "../../assets/styles/genericStyle";
+import genericStyle from "../styles/genericStyle";
 
 const BackgroundGeneric = (props) => {
     return (

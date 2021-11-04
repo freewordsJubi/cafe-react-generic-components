@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Alert, Modal, StyleSheet, Text, Pressable, View } from 'react-native';
-import genericStyle from "../../assets/styles/genericStyle";
+import genericStyle from "../styles/genericStyle";
 import ButtonGeneric from '../buttonGeneric/ButtonGeneric';
 const ModalGeneric = (props) => {
   const [modalVisible, setModalVisible] = useState(false);
