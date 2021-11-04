@@ -42,7 +42,7 @@ var _default = _reactNative.StyleSheet.create({
     padding: 5
   },
   img: {
-    with: 0,
+    width: 0,
     height: 0
   },
   imgBg: {
