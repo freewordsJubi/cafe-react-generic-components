@@ -1,6 +1,6 @@
 {
   "name": "cafe-react-generic-components",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
