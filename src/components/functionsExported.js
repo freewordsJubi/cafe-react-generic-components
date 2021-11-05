@@ -3,7 +3,7 @@ export function randomChoice(arr) {
     return choiceValue
 }
 
-export function decreeWinner(valueCpu, valuePlayer, arr) {
+export function declareWinner(valueCpu, valuePlayer, arr) {
     if (valueCpu === valuePlayer) {
         return 'Pareggio'
     }
